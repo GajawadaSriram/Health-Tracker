@@ -1,0 +1,11 @@
+label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  select, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
