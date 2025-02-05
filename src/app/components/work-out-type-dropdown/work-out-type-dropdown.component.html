@@ -11,7 +11,7 @@
     <option *ngFor="let type of workoutTypes | keys" [value]="type">{{ type }}</option>
   </select>
 
-  <!-- Sub Workout Type Selection (shown only if a workout type is selected) -->
+ 
   <div *ngIf="selectedWorkoutType" class="flex flex-col space-y-2 mt-4">
     <label for="subWorkoutType" class="text-gray-700 font-semibold">Select Sub-Workout:</label>
     <select 
