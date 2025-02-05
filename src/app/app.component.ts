@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FormsModule],  // No RouterModule.forRoot() here
+  imports: [RouterOutlet, FormsModule],  
   template: '<router-outlet></router-outlet>',
   styleUrls: ['./app.component.css']
 })
