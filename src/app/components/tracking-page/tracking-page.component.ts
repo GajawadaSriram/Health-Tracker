@@ -19,8 +19,8 @@ interface UserData {
   styleUrls: ['./tracking-page.component.css']
 })
 export class TrackingPageComponent implements OnInit {
-  users: UserData[] = []; // Will hold all user data, including default
-  filteredUsers: UserData[] = []; // This will be the list that gets filtered
+  users: UserData[] = []; 
+  filteredUsers: UserData[] = []; 
   searchQuery = '';
   selectedWorkoutType: string = '';
   selectedSubWorkoutType: string = '';
